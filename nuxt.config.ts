@@ -6,5 +6,10 @@ export default defineNuxtConfig({
   runtimeConfig: {
     sfUserName: process.env.SF_USER || "SF user name",
     sfPassword: process.env.SF_PASSWORD || "SF password",
+  },
+  colorMode: {
+    classSuffix: '',
+    preference: 'system',
+    fallback: 'dark'
   }
 })
